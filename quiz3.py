@@ -17,12 +17,3 @@ c_url = c_url[:c_url.index(".")]
 print(c_url)
 password = str(c_url[:3]) + str(len(c_url)) + str(c_url.count("e")) + "!"
 print(password)
-
-
-# url = "https://www.youtube.com/watch?v=kWiCuklohdY&t=146s"
-# my_str = url.replace("https://www.", "")  # 규칙 1
-# print(my_str)
-# my_str = my_str[:my_str.index(".")]
-# print(my_str)
-# password = my_str[:3] + str(len(my_str)) + str(my_str.count("e")) + "!"
-# print(password)
