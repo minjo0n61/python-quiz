@@ -28,7 +28,9 @@ for i in range(50):
         ok = "O"
     else:
         ok = " "
+
     print("[{0}] {1}번째 손님(소요시간: {2}분)".format(str(ok), str(i), str(ranT[0])))
+
     if ok == "O":
         ok_num += 1
     else:
